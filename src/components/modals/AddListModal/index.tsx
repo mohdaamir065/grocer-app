@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import {
-  View,
-  Modal,
-  TouchableOpacity,
-  SafeAreaView,
-  Alert,
-} from "react-native";
+import { View, Modal, TouchableOpacity, SafeAreaView } from "react-native";
 import { styles } from "./styles";
 import { Input, Button } from "../../index";
 import { Entypo } from "@expo/vector-icons";
-import useSqlite from "../../../hooks/useSqlite";
 import useLists from "../../../hooks/useLists";
 
 interface PROPS {

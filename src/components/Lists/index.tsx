@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import { SwipeListView } from "react-native-swipe-list-view";
 import { styles } from "./styles";
@@ -6,8 +6,6 @@ import useLists from "../../hooks/useLists";
 import { GrocerryList, GrocerryListItem } from "../../@types/index";
 import { useNavigation } from "@react-navigation/native";
 import { Routes } from "../../navigation";
-import { GrocerryItemContextType } from "../../@types/grocerry";
-import { GroceryItemContext } from "../../context/GroceryItemContext";
 
 interface PROPS {
   lists: GrocerryList[];
